@@ -1,0 +1,22 @@
+{
+  "name": "mi_node",
+  "version": "1.0.0",
+  "description": "mi proyecto backend",
+  "keywords": [
+    "node",
+    "javascript",
+    "coderhouse"
+  ],
+  "license": "MIT",
+  "author": "Rodrigo Faccini",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "chalk": "^4.1.2",
+    "express": "^5.1.0"
+  }
+}
