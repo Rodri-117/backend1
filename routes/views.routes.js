@@ -67,6 +67,16 @@ router.get('/carts/:cid', async (req, res) => {
     }
 });
 
+router.get('/realtimeproducts', async (req, res) => {
+    try {
+        const productos = await Product.find().lean();
+        res.render('realtimeProducts', { productos });
+    } catch (error) {
+        console.error(error);
+        res.status(500).send('Error interno del servidor');
+    }
+});
+
 module.exports = router;
 
 

@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars');
 const http = require('http');
 const { Server } = require('socket.io');
 require('dotenv').config();
-const connectDB = require('./db');
+const connectDB = require('./config/db');
 
 const viewsRouter = require('./routes/views.routes');
 const productsRouter = require('./routes/products.routes');
