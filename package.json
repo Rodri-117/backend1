@@ -18,8 +18,10 @@
   "dependencies": {
     "bootstrap": "^5.3.7",
     "chalk": "^4.1.2",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.1",
+    "mongoose-paginate-v2": "^1.9.1",
     "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   }

@@ -25,8 +25,7 @@ formAgregar.addEventListener('submit', e => {
 
 formEliminar.addEventListener('submit', e => {
     e.preventDefault();
-    const id = Number(e.target.id.value);
+    const id = e.target.id.value;
     socket.emit('eliminarProducto', id);
     e.target.reset();
 });
-    
